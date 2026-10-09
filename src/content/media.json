@@ -1,0 +1,29 @@
+{
+  "_not": "public/images altındaki görseller PSD'den hazırlandı; boyut varyantları `npm run images` ile üretilir. Adresi https:// ile başlayanlar henüz taşınmadı, mevcut siteden çekiliyor.",
+  "logo": { "src": "/images/logo.svg", "width": 301, "height": 87, "alt": "MesoNutrilift – Gençleşmenin Yeni İksiri" },
+  "logoWhite": { "src": "/images/logo-white.svg", "width": 301, "height": 87, "alt": "MesoNutrilift – Gençleşmenin Yeni İksiri" },
+  "logoRaster": { "src": "/images/logo.png", "width": 600, "height": 174, "alt": "MesoNutrilift – Gençleşmenin Yeni İksiri" },
+  "logoDistributor": { "src": "https://mesonutrilift.com/wp-content/uploads/2023/10/ErdagiLogo600pix.png", "width": 601, "height": 108, "alt": "Erdağı Medikal" },
+  "hero": { "src": "/images/hero.webp", "width": 1005, "height": 1256, "alt": "MesoNutrilift uygulaması sonrası canlı ve nemli görünen cilt" },
+  "og": { "src": "/images/og.jpg", "width": 1200, "height": 630, "alt": "MesoNutrilift ürün kutusu ve flakonu, ışıltılı cilde sahip kadın" },
+  "product": { "src": "/images/product.webp", "width": 1080, "height": 696, "alt": "MesoMedica MesoNutrilift ürün kutusu ve flakonu" },
+  "effectFirm": { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/1.png", "width": 424, "height": 858, "alt": "Daha sıkı bir cilt" },
+  "effectBright": { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/2.png", "width": 424, "height": 858, "alt": "Daha aydınlık bir cilt" },
+  "effectYoung": { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/3.png", "width": 424, "height": 858, "alt": "Daha genç bir cilt" },
+  "portrait": { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/Katman-1.png", "width": 1929, "height": 1872, "alt": "Yüz bölgesinde MesoNutrilift uygulama noktaları" },
+  "faq": { "src": "/images/faq.webp", "width": 938, "height": 704, "alt": "Pürüzsüz ve ışıltılı görünen cilde sahip gülümseyen kadın" },
+  "beforeAfter": [
+    { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/5.jpg", "width": 740, "height": 490, "alt": "MesoNutrilift öncesi ve sonrası – 1" },
+    { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/7.jpg", "width": 740, "height": 490, "alt": "MesoNutrilift öncesi ve sonrası – 2" },
+    { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/1.jpg", "width": 740, "height": 490, "alt": "MesoNutrilift öncesi ve sonrası – 3" },
+    { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/4.jpg", "width": 740, "height": 490, "alt": "MesoNutrilift öncesi ve sonrası – 4" },
+    { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/3.jpg", "width": 740, "height": 490, "alt": "MesoNutrilift öncesi ve sonrası – 5" },
+    { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/2.jpg", "width": 740, "height": 490, "alt": "MesoNutrilift öncesi ve sonrası – 6" },
+    { "src": "https://mesonutrilift.com/wp-content/uploads/2023/08/6.jpg", "width": 740, "height": 490, "alt": "MesoNutrilift öncesi ve sonrası – 7" }
+  ],
+  "icons": {
+    "icon32": "https://mesonutrilift.com/wp-content/uploads/2023/08/cropped-logo-nutrilift-32x32.png",
+    "icon192": "https://mesonutrilift.com/wp-content/uploads/2023/08/cropped-logo-nutrilift-192x192.png",
+    "apple": "https://mesonutrilift.com/wp-content/uploads/2023/08/cropped-logo-nutrilift-180x180.png"
+  }
+}

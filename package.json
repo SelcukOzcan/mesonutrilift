@@ -1,10 +1,11 @@
 {
   "name": "mesonutrilift-web",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "images": "node scripts/images.mjs",
     "preview": "node scripts/preview.mjs",
     "typecheck": "tsc --noEmit"
   },
@@ -25,6 +26,7 @@
     "@types/node": "^24",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.3",
     "typescript": "^5"
   }

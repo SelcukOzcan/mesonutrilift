@@ -1,0 +1,614 @@
+[
+  {
+    "No": "1",
+    "Klink / Doktor / Hastane": "Nera Clinic / Dr. Nuran Erdağı",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bakırköy",
+    "ADRES": "Şenlikköy Mh. Florya Cad. No:47/A Bakırköy İstanbul",
+    "TEL": "2124252393",
+    "WEB": "www.neraclinic.com"
+  },
+  {
+    "No": "2",
+    "Klink / Doktor / Hastane": "Prof. Dr. Gökhan Okan",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bakırköy",
+    "ADRES": "Çobançeşme E-5 Yan Yol Cad No: 20-113 B Blok, 4. Kat. D: 62 Bakırköy İstanbul",
+    "TEL": "2125526060",
+    "WEB": "www.gokhanokan.com"
+  },
+  {
+    "No": "3",
+    "Klink / Doktor / Hastane": "Prof. Dr. Ozan Seymen Sezen",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Suadiye, Bağdat Cad. Pınar Apartmanı Kat: 1, No: 421/5, 34740 Kadıköy/İstanbul",
+    "TEL": "5453554334",
+    "WEB": "www.ozanseymen.com/tr/"
+  },
+  {
+    "No": "4",
+    "Klink / Doktor / Hastane": "Dr. Mert Gençoğlu",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Şişli",
+    "ADRES": "Meşrutiyet Mah. Rumeli Cd. Zeki Bey apt No:80 D:3 Kat: 1 Şişli İstanbul",
+    "TEL": "5316671111",
+    "WEB": "www.drmertgencoglu.com"
+  },
+  {
+    "No": "5",
+    "Klink / Doktor / Hastane": "Prof. Dr. Selma Bakar Dertlioğlu",
+    "İl": "Elazığ",
+    "İLÇE": "Elazığ Merkez",
+    "ADRES": "Nail Bey Mah Vali Fahri Bey Cad Batı Kırtasiye Üzeri Kat.1 Elazığ Merkez/Elazığ",
+    "TEL": "4242383834",
+    "WEB": "www.instagram.com/profdrselmabakardertlioglu/"
+  },
+  {
+    "No": "6",
+    "Klink / Doktor / Hastane": "Acıbadem Atakent Hastanesi / Doç. Dr. Filiz Gülüstan",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Küçükçekmece",
+    "ADRES": "Halkalı Merkez, Turgut Özal Bulvari No:16, 34303 Küçükçekmece/İstanbul",
+    "TEL": "2124445544",
+    "WEB": "www.acibadem.com.tr/doktor/filiz-gulustan/"
+  },
+  {
+    "No": "7",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Görkem Oruç Adalı",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Üsküdar",
+    "ADRES": "Acıbadem Mah Derin Sok Acıbadem Akasya Kent Etabı No 8/A D.51 Üsküdar",
+    "TEL": "5313207500",
+    "WEB": "https://www.instagram.com/uzm.dr.gorkemorucadali"
+  },
+  {
+    "No": "8",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Şafak Göktaş",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Zühtü Paşa Mh. Bağdat Cad. No:28 Kadıköy İstanbul",
+    "TEL": "5306011478",
+    "WEB": "www.safakgoktas.com"
+  },
+  {
+    "No": "9",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Emre Araz",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Başakşehir",
+    "ADRES": "Bahçeşehir 2. Kısım Avni Akyol Bulvarı Mah. No7 Başakşehir İstanbul",
+    "TEL": "5374833951",
+    "WEB": "www.dremrearaz.com"
+  },
+  {
+    "No": "10",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Yemliha Bozkurt",
+    "İl": "Adana",
+    "İLÇE": "Çukurova",
+    "ADRES": "Adanorm teras, Belediye Evleri, Dr. Sadık Ahmet Blv. B blok kat:3 no:24, 01360 Çukurova/Adana",
+    "TEL": "5336133899",
+    "WEB": "www.dryemlihabozkurt.com/"
+  },
+  {
+    "No": "11",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Fatma Şen Gerçeker",
+    "İl": "Ordu",
+    "İLÇE": "Ünye",
+    "ADRES": "Atatürk mh. Ayanikola sk. No:2A Ünye/Ordu",
+    "TEL": "5332774752",
+    "WEB": "http://www.instagram.com/dr.fatmasengerceker/"
+  },
+  {
+    "No": "12",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Esra Azman",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Başakşehir",
+    "ADRES": "Kayabaşı, Nidakule Kayaşehir, Kayaşehir Blv no:45 Kat:4, Ofis No:14, Başakşehir İstanbul",
+    "TEL": "2126300090",
+    "WEB": "www.esraazman.com"
+  },
+  {
+    "No": "13",
+    "Klink / Doktor / Hastane": "Uzm.Dr.Gökhan Gürül",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bağcılar",
+    "ADRES": "Polat Towers, Mahmutbey, Taşocağı Yolu Cad. no:1 kat:9 daire no: 77, 34218 Bağcılar/İstanbul",
+    "TEL": "5451270628",
+    "WEB": "www.drgokhangurul.com/"
+  },
+  {
+    "No": "14",
+    "Klink / Doktor / Hastane": "Liv Hospital Ulus / Uzm. Dr. Ömer Gezdur",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Beşiktaş",
+    "ADRES": "Ahmet Adnan Saygun Cad. Canan Sok. No:5 34340 Beşiktaş İstanbul",
+    "TEL": "2124444548",
+    "WEB": "www.livhospital.com/uzm-dr-omer-gezdur"
+  },
+  {
+    "No": "15",
+    "Klink / Doktor / Hastane": "Avrasya Hospital / Uzm. Dr. Deniz Yardımcı",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Zeytinburnu",
+    "ADRES": "Beştelsiz Mah. 101. Sokak. No:107 (Akşemsettin Tramvay Durağı yanı) Zeytinburnu",
+    "TEL": "5069734824",
+    "WEB": "www.avrasyahospital.com.tr/"
+  },
+  {
+    "No": "16",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Melek Baş",
+    "İl": "Edirne",
+    "İLÇE": "Keşan",
+    "ADRES": "Büyük Cami Fevzi Çakmak Cd Keşan/Edirne",
+    "TEL": "2847148404",
+    "WEB": "www.instagram.com/uzm_dr_melek_bas"
+  },
+  {
+    "No": "17",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Senem Aslan Kurtuluş",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Tuzla",
+    "ADRES": "Teknik Yapı Evora Sitesi A11/68 Tuzla/İstanbul",
+    "TEL": "5053978110",
+    "WEB": ""
+  },
+  {
+    "No": "18",
+    "Klink / Doktor / Hastane": "Uzm.Dr.Emel Gökalp",
+    "İl": "Eskişehir",
+    "İLÇE": "Tepebaşı",
+    "ADRES": "Hoşnudiye mh 734.sk no 21 d101 tepebaşı Eskişehir",
+    "TEL": "5059282693",
+    "WEB": "www.instagram.com/uzmdremelgokalp/"
+  },
+  {
+    "No": "19",
+    "Klink / Doktor / Hastane": "Uzm. Dr. Selda Kap",
+    "İl": "Çanakkale",
+    "İLÇE": "Çanakkale_Merkez",
+    "ADRES": "Barbaros mah. Atatürk Cd. Boğaziçi konakları No:300 A1 blok No:2 Yeni kordon Merkez Çanakkale",
+    "TEL": "5421532517",
+    "WEB": "www.uzmdrseldakap.com"
+  },
+  {
+    "No": "20",
+    "Klink / Doktor / Hastane": "Op.Dr.M.Eren Şimşek",
+    "İl": "Malatya",
+    "İLÇE": "Battalgazi",
+    "ADRES": "Paşaköşkü mah pembe sokak no 10/A Battalgazi/Malatya",
+    "TEL": "5530983022",
+    "WEB": ""
+  },
+  {
+    "No": "21",
+    "Klink / Doktor / Hastane": "Medicana Zincirlikuyu Hastanesi",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Şişli",
+    "ADRES": "Esentepe, Büyükdere Cd. No:165, 34394 Şişli/İstanbul",
+    "TEL": "2129707970",
+    "WEB": "www.medicana.com.tr/zincirlikuyu"
+  },
+  {
+    "No": "22",
+    "Klink / Doktor / Hastane": "Op. Dr. Sümeyra Okur Salman",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Ümraniye",
+    "ADRES": "Limonlu Bahçe Konakları, Yamanevler mahallesi Alemdağ caddesi no:171H, B2 blok daire: 23 kat:5, 34768 Ümraniye/İstanbul",
+    "TEL": "8508118398",
+    "WEB": "https://sumeyraokursalman.com/"
+  },
+  {
+    "No": "23",
+    "Klink / Doktor / Hastane": "Dr. Gizem Kağıtçı",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bakırköy",
+    "ADRES": "Zuhuratbaba mahallesi, Incirli caddesi, Meydan Plaza no:17 kat:1 daire:2 Bakirkoy/Istanbul",
+    "TEL": "5326964086",
+    "WEB": "http://www.drgizemkagitci.com/"
+  },
+  {
+    "No": "24",
+    "Klink / Doktor / Hastane": "Dr. Emrah Cinik",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Beşiktaş",
+    "ADRES": "Dikilitaş, Ayazmaderesi Cd No: 4, 34349 Beşiktaş/İstanbul",
+    "TEL": "5496413701",
+    "WEB": "https://emrahcinik.com/tr/"
+  },
+  {
+    "No": "25",
+    "Klink / Doktor / Hastane": "MedicalPark Göztepe / Prof. Dr. Kaan Gökçen",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "E5 Üzeri, Merdivenköy, Nisan Sk. No: 23, 34732 Kadıköy/İstanbul",
+    "TEL": "5305107435",
+    "WEB": "https://www.instagram.com/drkaangokcen/"
+  },
+  {
+    "No": "26",
+    "Klink / Doktor / Hastane": "Acıbadem Sağlık Grubu",
+    "İl": "İstanbul",
+    "İLÇE": "",
+    "ADRES": "Bütün Şubeler",
+    "TEL": "2124445544",
+    "WEB": "http://www.acibadem.com.tr/"
+  },
+  {
+    "No": "27",
+    "Klink / Doktor / Hastane": "Op. Dr. Aslı Berker",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Beşiktaş",
+    "ADRES": "Akat, Ceylan Apt, Aysu Sk. No:1 K:2 D:11, 34365 Beşiktaş/İstanbul",
+    "TEL": "5304727325",
+    "WEB": "www.asliberker.com"
+  },
+  {
+    "No": "28",
+    "Klink / Doktor / Hastane": "Op. Dr. Tuğba Karadeniz Atalay",
+    "İl": "Ordu",
+    "İLÇE": "Altınordu",
+    "ADRES": "Bahçelievler, Mehmetçik Blv. No:14/B, 52100 Altınordu/Ordu",
+    "TEL": "5425155261",
+    "WEB": "www.drtugbakaradenizatalay.com/"
+  },
+  {
+    "No": "29",
+    "Klink / Doktor / Hastane": "Op. Dr. Nuran Kalekoğlu Erkalp",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bahçelievler",
+    "ADRES": "Bahçelievler, D100 Yanyol Sk Metroport Busidence No:14/B Kat:7 D:702, Bahçelievler İstanbul",
+    "TEL": "2124415800",
+    "WEB": "www.drnurankalekogluerkalp.com"
+  },
+  {
+    "No": "30",
+    "Klink / Doktor / Hastane": "Lale Aesthetic / Op. Dr. Lale Alakbarova Akpınar",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Fenerbahçe Mh Ahmet mithat efendi Cd Karasu apt no16/3 Kadıköy İstanbul",
+    "TEL": "5528842935",
+    "WEB": "www.instagram.com/uzm.dr.laleelekberova/"
+  },
+  {
+    "No": "31",
+    "Klink / Doktor / Hastane": "Op. Dr. Betül Erdemir",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kartal",
+    "ADRES": "Kordonboyu Mah.Çiçeksuyu Sk.No.1 Dumankaya Horizon Rezidans D.100 Kartal İstanbul",
+    "TEL": "5531358032",
+    "WEB": "www.plastderm.com.tr"
+  },
+  {
+    "No": "32",
+    "Klink / Doktor / Hastane": "Op.Dr.Ahmet Kürşat Yiğit",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Bostancı, Çınarlı Sk. D: No:10 İç kapı No:3 Kadıköy/İstanbul",
+    "TEL": "5305291130",
+    "WEB": "https://ahmetkursatyigit.com/"
+  },
+  {
+    "No": "33",
+    "Klink / Doktor / Hastane": "Op. Dr. Can Şinasi Kalkavan",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Pendik",
+    "ADRES": "Doğu Mah. Yücel Sok. No:1 Pendik İstanbul",
+    "TEL": "2165853200",
+    "WEB": "www.cansinasikalkavan.com"
+  },
+  {
+    "No": "34",
+    "Klink / Doktor / Hastane": "Op. Dr. Muammer Doğan",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Üsküdar",
+    "ADRES": "Acıbadem, Zerrin Sk. No:8, 34660 Üsküdar/İstanbul",
+    "TEL": "",
+    "WEB": ""
+  },
+  {
+    "No": "35",
+    "Klink / Doktor / Hastane": "Özel Aktif Hastanesi / Op. Dr. Aydın Şölen",
+    "İl": "Yalova",
+    "İLÇE": "Merkez",
+    "ADRES": "Fevzi Çakmak, Şehir Ömer Faydalı Cad. Fırın Sk. No:33/A Merkez Yalova",
+    "TEL": "5528112244",
+    "WEB": "http://www.aktifhastanesi.com.tr/doktorlar/aydin-solen/"
+  },
+  {
+    "No": "36",
+    "Klink / Doktor / Hastane": "Özel Lifemed Tıp Merkezi / Op. Dr. Yalçın Yarar",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Feneryolu, Bağdat Cad. No: 191/A, 34730 Kadıköy İstanbul",
+    "TEL": "2164445433",
+    "WEB": "www.lifemed.com.tr"
+  },
+  {
+    "No": "37",
+    "Klink / Doktor / Hastane": "Özel Akdamar Hospital",
+    "İl": "Van",
+    "İLÇE": "İpekyolu",
+    "ADRES": "Hatuniye, Asmin Sk No:8, 65040 İpekyolu/Van",
+    "TEL": "4322175900",
+    "WEB": "www.akdamarhospital.com.tr/"
+  },
+  {
+    "No": "38",
+    "Klink / Doktor / Hastane": "Özel Sanko Hastanesi",
+    "İl": "Gaziantep",
+    "İLÇE": "Şehitkamil",
+    "ADRES": "DEĞiRMiÇEM MAH. 16049 SK. NO: 2 /A ŞEHiTKAMİL / GAZiANTEP",
+    "TEL": "8508118765",
+    "WEB": "www.sankohastanesi.com.tr/index.html"
+  },
+  {
+    "No": "39",
+    "Klink / Doktor / Hastane": "Vera Sm Cerrahi Tıp Merkezi",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Küçükçekmece",
+    "ADRES": "Sultan Murat, Sultan Murat Cd. 113-1, 34295 Küçükçekmece/İstanbul",
+    "TEL": "2124240115",
+    "WEB": "www.verahastanesi.com/"
+  },
+  {
+    "No": "40",
+    "Klink / Doktor / Hastane": "Özel DNZ Polikliniği",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Kağıthane",
+    "ADRES": "Sultan Selim Mah. Büyükdere Cad. Behçet Sokak No:2 Büyükdere İş Merkezi K:2 D:3 Kâğıthane İstanbul",
+    "TEL": "5551445919",
+    "WEB": "www.dnzpoliklinik.com"
+  },
+  {
+    "No": "41",
+    "Klink / Doktor / Hastane": "Özel Ümit Hastanesi",
+    "İl": "Eskişehir",
+    "İLÇE": "Tepebaşı",
+    "ADRES": "Batıkent, Gerekli Sokak No:13, Karagözler / Tepebaşı / Eskişehir",
+    "TEL": "2223350335",
+    "WEB": "www.umithastanesi.com.tr/hospital/ozel-umit-hastanesi"
+  },
+  {
+    "No": "42",
+    "Klink / Doktor / Hastane": "Elmas Poliklinik",
+    "İl": "Ankara",
+    "İLÇE": "Çankaya",
+    "ADRES": "Ümit Mahallesi 2494/3 Sokak No:3 Çankaya/Ankara",
+    "TEL": "5301241606",
+    "WEB": ""
+  },
+  {
+    "No": "43",
+    "Klink / Doktor / Hastane": "Özel Pendik Yüzyıl Hastanesi",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Pendik",
+    "ADRES": "Fevzi Çakmak Mah. Tevfik İleri Cad. No:105 / Pendik / İstanbul",
+    "TEL": "2163975900",
+    "WEB": "https://pendikyuzyilhastanesi.com/"
+  },
+  {
+    "No": "44",
+    "Klink / Doktor / Hastane": "Dr. Orçun Aktaş",
+    "İl": "İzmir",
+    "İLÇE": "Güzelbahçe",
+    "ADRES": "Kahramandere, 854. Sk. No:16/1, Güzelbahçe İzmir",
+    "TEL": "5464602323",
+    "WEB": "www.instagram.com/drorcunaktas"
+  },
+  {
+    "No": "45",
+    "Klink / Doktor / Hastane": "Dr. Ahmet Akdaş",
+    "İl": "Malatya",
+    "İLÇE": "Yeşilyurt",
+    "ADRES": "Özalper Mh Gülümser Cd No.37 A Yeşilyurt Malatya",
+    "TEL": "4223218132",
+    "WEB": ""
+  },
+  {
+    "No": "46",
+    "Klink / Doktor / Hastane": "Dr. Süleyman Koyunsever",
+    "İl": "Şanlıurfa",
+    "İLÇE": "Karaköprü",
+    "ADRES": "Şenevler, 601. Cd. 37C, 63320 Karaköprü/Şanlıurfa",
+    "TEL": "5347982123",
+    "WEB": "www.drsuleymankoyunsever.com/"
+  },
+  {
+    "No": "47",
+    "Klink / Doktor / Hastane": "Dr. Fatma Işın Ünay",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Bahariye Cad. No:40 Kardeş Apt. 2.Kat Kadıköy İstanbul",
+    "TEL": "2166518737",
+    "WEB": ""
+  },
+  {
+    "No": "48",
+    "Klink / Doktor / Hastane": "Medical Park İstanbul Onkoloji Hastanesi",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Maltepe",
+    "ADRES": "Cevizli, Talatpaşa Cd No:75, 34846 Maltepe/İstanbul",
+    "TEL": "2164444484",
+    "WEB": "www.medicalpark.com.tr/hastanelerimiz/medical-park-istanbul-onkoloji-hastanesi"
+  },
+  {
+    "No": "49",
+    "Klink / Doktor / Hastane": "Ümran Tıp Merkezi",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Üsküdar",
+    "ADRES": "Bulgurlu Mh. İzzettin Bey Sk No:3 Üsküdar İstanbul",
+    "TEL": "2164619492",
+    "WEB": "www.umrantip.com"
+  },
+  {
+    "No": "50",
+    "Klink / Doktor / Hastane": "Özel Medar Hastanesi Gölcük",
+    "İl": "Kocaeli",
+    "İLÇE": "Gölcük",
+    "ADRES": "Çiftlik, 4179. Sk. No:1, 41650 Gölcük/Kocaeli",
+    "TEL": "2124449941",
+    "WEB": "www.medarhastanesi.com.tr/hastane/golcuk-hastanesi"
+  },
+  {
+    "No": "51",
+    "Klink / Doktor / Hastane": "Özel İskenderun Gelişim Hastanesi",
+    "İl": "Hatay",
+    "İLÇE": "İskenderun",
+    "ADRES": "Numune, Dr. Sadık Ahmet Cd. No:89, 31200 İskenderun/Hatay",
+    "TEL": "8503046666",
+    "WEB": "www.gelisimhastanesi.com/"
+  },
+  {
+    "No": "52",
+    "Klink / Doktor / Hastane": "Shinest Estetik",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Küçükçekmece",
+    "ADRES": "Atakent mah 242.sokak A no.6B Küçükçekmece İstanbul",
+    "TEL": "2127064565",
+    "WEB": "www.shinest.com.tr"
+  },
+  {
+    "No": "53",
+    "Klink / Doktor / Hastane": "Dr. Caner Unay",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Göztepe, Caddebostan, Bağdat Cad. No: 245, Kadıköy İstanbul",
+    "TEL": "5432393038",
+    "WEB": "www.instagram.com/dr.canerunay/"
+  },
+  {
+    "No": "54",
+    "Klink / Doktor / Hastane": "Dr. Ceyhun Dündar",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bakırköy",
+    "ADRES": "Zeytinlik, Ömer Naci Sk. No:8 Bakırköy/İstanbul",
+    "TEL": "5419673861",
+    "WEB": "www.drceyhundundar.com"
+  },
+  {
+    "No": "55",
+    "Klink / Doktor / Hastane": "Avicenna Esenler Hastanesi",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Esenler",
+    "ADRES": "Menderes Mah. Atışalanı Cd, 307. Sk. No:2, 34205 Esenler/İstanbul",
+    "TEL": "2124403232",
+    "WEB": "www.avicennahastane.com/"
+  },
+  {
+    "No": "56",
+    "Klink / Doktor / Hastane": "Özel Akademi Meram Hastanesi",
+    "İl": "Konya",
+    "İLÇE": "Meram",
+    "ADRES": "Alavardı Mh Beyşehir Cd No181 Meram Konya",
+    "TEL": "444 42 30",
+    "WEB": "www.akademihastaneleri.com"
+  },
+  {
+    "No": "57",
+    "Klink / Doktor / Hastane": "Dr. Aslı Yıldız",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Şişli",
+    "ADRES": "Fulya, Yeşilçimen Sokağı Polat Tower Residence Şişli İstanbul",
+    "TEL": "5353582555",
+    "WEB": "www.drasliyildiz.com"
+  },
+  {
+    "No": "58",
+    "Klink / Doktor / Hastane": "Dr. Ahmet Cemil Kavaz",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Şişli",
+    "ADRES": "Valikonağı cd Şakayık Sk İzmitli Apt Kat Nişantaşı Şişli İstanbul",
+    "TEL": "5551044455",
+    "WEB": "www.instagram.com/drahmetcemilofficial"
+  },
+  {
+    "No": "59",
+    "Klink / Doktor / Hastane": "Dr. Seher Küçükoğlu Cesur",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bahçelievler",
+    "ADRES": "Bahçelievler mah. D100 Yanyol No:14/B Metroport Busidance 8.Kat No:802 Bahçelievler / İstanbul",
+    "TEL": "5302099311",
+    "WEB": "www.seherkucukoglucesur.com/"
+  },
+  {
+    "No": "60",
+    "Klink / Doktor / Hastane": "Dr. Abdulhadi Türk",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Şişli",
+    "ADRES": "Meşrutiyet Mh. Armağan Sokak. N.3/9 Nişantaşı İstanbul",
+    "TEL": "5387479960",
+    "WEB": "www.lifepointclinic.com"
+  },
+  {
+    "No": "61",
+    "Klink / Doktor / Hastane": "Özel Esteliv Polikliniği",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Beylikdüzü",
+    "ADRES": "Barış Mh, Mehmetçik Cd, Ginza Lavinya Park 30/176, Beylikdüzü İstanbul",
+    "TEL": "5537620224",
+    "WEB": "www.esteliv.com.tr"
+  },
+  {
+    "No": "62",
+    "Klink / Doktor / Hastane": "Akl Poliklinik / Dr. Mine Nur Zafer",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Pendik",
+    "ADRES": "Yenişehir Mah. Mustafa Akyol Sok. MVK Sitesi A2 Blok No:13 D:245",
+    "TEL": "2163348282",
+    "WEB": "www.aklpoliklinik.com"
+  },
+  {
+    "No": "63",
+    "Klink / Doktor / Hastane": "Dr. Semih İnce",
+    "İl": "Antalya",
+    "İLÇE": "Muratpaşa",
+    "ADRES": "Yeşilbahçe Mh. 1481. Sk. Girit Han, No:4 Kat:2 Muratpaşa Antalya",
+    "TEL": "2423161663",
+    "WEB": "www.drsemihince.com"
+  },
+  {
+    "No": "64",
+    "Klink / Doktor / Hastane": "Cihan Bolat",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Suadiye mah. Bağdat Cad. Cemilbey apt. No:393/1 Daire: 14 Kadıköy İstanbul",
+    "TEL": "5065953454",
+    "WEB": "www.instagram.com/drcihanbolat/"
+  },
+  {
+    "No": "65",
+    "Klink / Doktor / Hastane": "Dr. Sevcan Kan",
+    "İl": "Ordu",
+    "İLÇE": "Ünye",
+    "ADRES": "Atatürk mah. Devlet sahil yolu cad. No:653 kat:4 daire:19 ünye/ordu",
+    "TEL": "5346591797",
+    "WEB": ""
+  },
+  {
+    "No": "66",
+    "Klink / Doktor / Hastane": "Özel Balıklı Rum Hastanesi / Dr. Ahmet Osman",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Zeytinburnu",
+    "ADRES": "Belgrad Kapı Yolu No:2 Zeytinburnu / İstanbul",
+    "TEL": "2124449097",
+    "WEB": "http://www.baliklirum.com.tr/profile/dr-ahmet-osman/"
+  },
+  {
+    "No": "67",
+    "Klink / Doktor / Hastane": "Florence Nightingale Hastanesi",
+    "İl": "İstanbul_Anadolu",
+    "İLÇE": "Kadıköy",
+    "ADRES": "Bağdat Caddesi No: 69 Kızıltoprak Kadıköy İstanbul",
+    "TEL": "2164440436",
+    "WEB": ""
+  },
+  {
+    "No": "68",
+    "Klink / Doktor / Hastane": "Bayrampaşa Kolan Hospital",
+    "İl": "İstanbul_Avrupa",
+    "İLÇE": "Bayrampaşa",
+    "ADRES": "Terazidere, 60. Yıl Cd. No:3, 34035 Bayrampaşa/İstanbul",
+    "TEL": "2124441443",
+    "WEB": "https://kolanhastanesi.com.tr/bayrampasa-kolan-hospital/"
+  }
+]

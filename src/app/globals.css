@@ -1,0 +1,466 @@
+@import "tailwindcss";
+
+/* Marka token'ları — kurumsal mor #672680 ve pudra #DA9D96 */
+@theme {
+  --color-plum-50: #faf5fc;
+  --color-plum-100: #f3e8f7;
+  --color-plum-200: #e6d0ef;
+  --color-plum-300: #d2ace2;
+  --color-plum-400: #b67ccf;
+  --color-plum-500: #9852b6;
+  --color-plum-600: #7d3897;
+  --color-plum-700: #672680;
+  --color-plum-800: #541f68;
+  --color-plum-900: #451b55;
+  --color-plum-950: #2b0c37;
+
+  --color-blush-50: #fdf6f5;
+  --color-blush-100: #fbeceb;
+  --color-blush-200: #f6d9d6;
+  --color-blush-300: #eebdb8;
+  --color-blush-400: #da9d96;
+  --color-blush-500: #cc8178;
+  --color-blush-600: #b5645b;
+  --color-blush-700: #974f47;
+
+  --color-ink: #241a29;
+  --color-muted: #6b6271;
+  --color-line: #ece4ef;
+  --color-cream: #fcf8f7;
+
+  /* Geçici font: Gilroy lisanslı dosyaları gelince src/app/fonts.ts güncellenecek */
+  --font-sans: var(--font-brand), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(43 12 55 / 0.04), 0 8px 24px -12px rgb(43 12 55 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(43 12 55 / 0.05), 0 18px 40px -16px rgb(43 12 55 / 0.25);
+  --shadow-glow: 0 0 0 1px rgb(255 255 255 / 0.6) inset, 0 20px 50px -20px rgb(103 38 128 / 0.45);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Hareket sistemi — yalnızca transform/opacity; sayfa hızını etkilemez */
+  --animate-aurora: aurora 22s ease-in-out infinite alternate;
+  --animate-aurora-slow: aurora 30s ease-in-out infinite alternate-reverse;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-spin-slow: spin 28s linear infinite;
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-shimmer: shimmer 6s linear infinite;
+  --animate-rise: rise 0.9s var(--ease-out-expo) both;
+  --animate-settle: settle 1.2s var(--ease-out-expo) both;
+  --animate-ping-soft: ping-soft 2.4s cubic-bezier(0, 0, 0.2, 1) infinite;
+
+  @keyframes aurora {
+    0% { transform: translate3d(0, 0, 0) scale(1); }
+    50% { transform: translate3d(-6%, 8%, 0) scale(1.12); }
+    100% { transform: translate3d(8%, -4%, 0) scale(0.94); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translate3d(0, 0, 0); }
+    50% { transform: translate3d(0, -12px, 0); }
+  }
+  @keyframes marquee {
+    to { transform: translate3d(-50%, 0, 0); }
+  }
+  @keyframes shimmer {
+    to { background-position: 200% center; }
+  }
+  @keyframes rise {
+    from { transform: translate3d(0, 18px, 0); opacity: 0; }
+  }
+  @keyframes settle {
+    from { transform: scale(0.94); }
+  }
+  @keyframes ping-soft {
+    75%, 100% { transform: scale(2.2); opacity: 0; }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-balance;
+  }
+
+  ::selection {
+    @apply bg-plum-200 text-plum-950;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-plum-500;
+  }
+
+  /* Hareket azaltma tercihi: tüm animasyonlar kapanır, öğeler son hallerinde görünür */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Blog yazı gövdesi */
+@utility prose-post {
+  @apply text-[1.0625rem] leading-8 text-ink/90;
+  & h2 {
+    @apply mt-12 mb-4 text-2xl font-bold text-plum-900 sm:text-3xl;
+  }
+  & h3 {
+    @apply mt-8 mb-3 text-xl font-semibold text-plum-900;
+  }
+  & p {
+    @apply my-5;
+  }
+  & a {
+    @apply font-medium text-plum-700 underline decoration-plum-300 underline-offset-4 hover:decoration-plum-700;
+  }
+  & ul,
+  & ol {
+    @apply my-5 space-y-2 pl-6;
+  }
+  & ul {
+    @apply list-disc marker:text-blush-500;
+  }
+  & ol {
+    @apply list-decimal marker:font-semibold marker:text-plum-700;
+  }
+  & table {
+    @apply my-8 w-full border-collapse overflow-hidden rounded-2xl text-left text-base;
+  }
+  & th {
+    @apply bg-plum-50 px-4 py-3 font-semibold text-plum-900;
+  }
+  & td {
+    @apply border-t border-line px-4 py-3 align-top;
+  }
+  & blockquote {
+    @apply my-8 border-l-4 border-blush-400 bg-blush-50 px-6 py-4 text-ink/80;
+  }
+  & strong {
+    @apply font-semibold text-ink;
+  }
+}
+
+/* ───────────────────────── v2 hareket ve etkileşim sistemi ─────────────────────────
+   Kural: animasyonun "başlangıç" hali keyframe'de, öğenin kendi stili "bitmiş" hali.
+   Desteklemeyen tarayıcıda ya da hareket azaltma açıkken içerik her zaman görünür kalır. */
+
+/* Kayan metin ışıltısı (başlıktaki marka adı) */
+@utility text-shimmer {
+  background-image: linear-gradient(100deg, var(--color-plum-700) 20%, var(--color-blush-500) 40%, var(--color-plum-500) 60%, var(--color-plum-700) 80%);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: var(--animate-shimmer);
+}
+
+/* Ana butonlarda üzerine gelince geçen ışık */
+@utility shine {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(115deg, transparent 30%, rgb(255 255 255 / 0.35) 50%, transparent 70%);
+    transform: translateX(-120%);
+    transition: transform 0.8s var(--ease-out-expo);
+  }
+  &:hover::after {
+    transform: translateX(120%);
+  }
+}
+
+/* Cam efektli yüzey */
+@utility glass {
+  background-color: rgb(255 255 255 / 0.72);
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  box-shadow: var(--shadow-glow);
+}
+
+/* İnce film greni (statik, hafif) */
+@utility grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* İmleci takip eden yumuşak ışık (Spotlight bileşeni --x/--y değerlerini verir) */
+@utility spotlight {
+  background-image: radial-gradient(420px circle at var(--x, 50%) var(--y, -20%), rgb(152 82 182 / 0.13), transparent 45%);
+}
+
+/* İmleç paralaksı (ParallaxStage --mx/--my değerlerini verir) */
+.parallax-layer {
+  translate: calc(var(--mx, 0) * var(--depth, 10) * 1px) calc(var(--my, 0) * var(--depth, 10) * 1px);
+  transition: translate 0.6s var(--ease-out-expo);
+}
+
+/* Sayaç: gerçek sayı ekran okuyucu ve botlar için metin olarak da sayfada */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+.count-up {
+  --num: var(--to);
+  counter-reset: num var(--num);
+  animation: count-up 1.8s var(--ease-out-expo) 0.2s both;
+}
+.count-up::after {
+  content: counter(num);
+}
+@keyframes count-up {
+  from { --num: 0; }
+}
+
+/* Kaydırınca beliren öğeler (CSS scroll-driven animations) */
+@keyframes reveal-up {
+  from { opacity: 0; transform: translate3d(0, 32px, 0) scale(0.98); }
+}
+@keyframes grow-y {
+  from { transform: scaleY(0); }
+}
+@keyframes step-light {
+  from { opacity: 0.35; transform: translate3d(0, 24px, 0); }
+}
+@keyframes header-solid {
+  from { background-color: rgb(252 248 247 / 0.94); border-color: transparent; box-shadow: none; }
+  to { background-color: rgb(255 255 255 / 0.86); border-color: var(--color-line); box-shadow: 0 10px 30px -18px rgb(43 12 55 / 0.25); }
+}
+@keyframes progress {
+  from { transform: scaleX(0); }
+}
+
+.scroll-progress {
+  display: none;
+}
+
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: reveal-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 55%;
+  }
+  /* Sayı, öğe ekrana tamamen girdiği anda son değerine ulaşır; yarım kaydırmada yanlış sayı kalmaz */
+  .count-up-view {
+    animation: count-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;
+  }
+  .timeline-fill {
+    transform-origin: top;
+    animation: grow-y linear both;
+    animation-timeline: view();
+    animation-range: cover 10% cover 70%;
+  }
+  .timeline-step {
+    animation: step-light linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  .header-scroll {
+    animation: header-solid linear both;
+    animation-timeline: scroll();
+    animation-range: 0 140px;
+  }
+  .scroll-progress {
+    display: block;
+    transform-origin: left;
+    animation: progress linear both;
+    animation-timeline: scroll();
+  }
+}
+
+/* 3'lü etki: mobilde kaydırmalı kartlar, masaüstünde üzerine gelince genişleyen paneller */
+.panels {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.panels::-webkit-scrollbar {
+  display: none;
+}
+.panels > .panel {
+  flex: 0 0 82%;
+  scroll-snap-align: center;
+}
+@media (min-width: 768px) {
+  .panels {
+    overflow: visible;
+    height: 36rem;
+  }
+  .panels > .panel {
+    flex: 1 1 0%;
+    transition: flex-grow 0.8s var(--ease-out-expo);
+  }
+  .panels > .panel:first-child,
+  .panels:has(.panel:hover, .panel:focus-visible) > .panel:hover,
+  .panels:has(.panel:hover, .panel:focus-visible) > .panel:focus-visible {
+    flex-grow: 2.4;
+  }
+  .panels:has(.panel:hover, .panel:focus-visible) > .panel:first-child:not(:hover, :focus-visible) {
+    flex-grow: 1;
+  }
+  .panels .panel-detail {
+    opacity: 0;
+    transform: translate3d(0, 12px, 0);
+    transition: opacity 0.5s ease, transform 0.6s var(--ease-out-expo);
+  }
+  .panels > .panel:first-child .panel-detail,
+  .panels > .panel:hover .panel-detail,
+  .panels > .panel:focus-visible .panel-detail {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.15s;
+  }
+  .panels:has(.panel:hover, .panel:focus-visible) > .panel:first-child:not(:hover, :focus-visible) .panel-detail {
+    opacity: 0;
+    transform: translate3d(0, 12px, 0);
+    transition-delay: 0s;
+  }
+}
+
+/* SSS: yumuşak açılan akordiyon (destekleyen tarayıcılarda) */
+:root {
+  interpolate-size: allow-keywords;
+}
+.faq-item::details-content {
+  block-size: 0;
+  overflow: hidden;
+  transition: block-size 0.45s var(--ease-out-expo), content-visibility 0.45s allow-discrete;
+}
+.faq-item[open]::details-content {
+  block-size: auto;
+}
+
+@keyframes equalizer {
+  0%, 100% { height: 30%; }
+  50% { height: 100%; }
+}
+
+/* Footer arka planı: Somon DNA sarmalı. Her sütunda ters fazlı iki nokta ve aralarında bir bağ var.
+   Yalnızca translate / scale / opacity değişir (GPU'da çalışır); genlik nokta kutusunun 5 katıdır.
+   Mobilde uzun footer boyunca sağ tarafta dikey akar; tablet ve masaüstünde çapraz bir bant olur.
+   Hareket azaltıldığında animasyon kapanır, sarmal satır içi stillerdeki ilk karesinde kalır. */
+.helix {
+  --box: 1.1rem;
+  position: absolute;
+  top: 55%;
+  left: 78%;
+  display: flex;
+  width: 230%;
+  height: calc(var(--box) * 12);
+  translate: -50% -50%;
+  rotate: -78deg;
+  opacity: 0.42;
+  mask-image: linear-gradient(90deg, transparent, #000 20%, #000 80%, transparent);
+  content-visibility: auto;
+  contain-intrinsic-size: auto calc(var(--box) * 12);
+}
+@media (min-width: 768px) {
+  .helix {
+    --box: 1.6rem;
+    top: 50%;
+    left: 50%;
+    width: 135%;
+    rotate: -7deg;
+  }
+}
+@media (min-width: 1280px) {
+  .helix {
+    --box: 1.9rem;
+    width: 118%;
+  }
+}
+@media (max-width: 767px) {
+  .helix-col:nth-child(2n) {
+    display: none;
+  }
+}
+.helix-col {
+  position: relative;
+  flex: 1;
+}
+.helix-dot,
+.helix-rung {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.helix-dot {
+  width: var(--box);
+  height: var(--box);
+  margin: calc(var(--box) / -2) 0 0 calc(var(--box) / -2);
+  border-radius: 9999px;
+  background: radial-gradient(circle, currentColor 0 20%, transparent 30%);
+  background: radial-gradient(circle, currentColor 0 18%, color-mix(in oklab, currentColor 40%, transparent) 27%, transparent 62%);
+  translate: 0 calc(var(--c) * 500%);
+  scale: var(--s);
+  opacity: var(--o);
+  animation: helix-y var(--helix-period) infinite, helix-z var(--helix-period) infinite;
+}
+.helix-rung {
+  width: 1px;
+  height: calc(var(--box) * 10);
+  margin: calc(var(--box) * -5) 0 0 -0.5px;
+  background: linear-gradient(rgb(238 189 184 / 0.32), rgb(210 172 226 / 0.32));
+  scale: 1 var(--r);
+  animation: helix-rung var(--helix-period) infinite;
+}
+@keyframes helix-y {
+  0% { translate: 0 -500%; animation-timing-function: ease-in; }
+  25% { translate: 0 0; animation-timing-function: ease-out; }
+  50% { translate: 0 500%; animation-timing-function: ease-in; }
+  75% { translate: 0 0; animation-timing-function: ease-out; }
+  100% { translate: 0 -500%; }
+}
+@keyframes helix-z {
+  0% { scale: 0.825; opacity: 0.6; animation-timing-function: ease-out; }
+  25% { scale: 1.2; opacity: 1; animation-timing-function: ease-in; }
+  50% { scale: 0.825; opacity: 0.6; animation-timing-function: ease-out; }
+  75% { scale: 0.45; opacity: 0.2; animation-timing-function: ease-in; }
+  100% { scale: 0.825; opacity: 0.6; }
+}
+@keyframes helix-rung {
+  0%, 50%, 100% { scale: 1 1; animation-timing-function: ease-in; }
+  25%, 75% { scale: 1 0; animation-timing-function: ease-out; }
+}
+
+/* Footer: sayfa kaydırıldıkça dolan "başa dön" halkası */
+@keyframes ring-fill {
+  from { stroke-dashoffset: 100; }
+  to { stroke-dashoffset: 0; }
+}
+@supports (animation-timeline: scroll()) {
+  .scroll-ring {
+    animation: ring-fill linear both;
+    animation-timeline: scroll();
+  }
+}

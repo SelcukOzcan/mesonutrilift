@@ -1,0 +1,32 @@
+{
+  "/images/hero.webp": {
+    "width": 1005,
+    "height": 1256,
+    "widths": [
+      480,
+      640,
+      828,
+      1005
+    ]
+  },
+  "/images/product.webp": {
+    "width": 1080,
+    "height": 696,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080
+    ]
+  },
+  "/images/faq.webp": {
+    "width": 938,
+    "height": 704,
+    "widths": [
+      480,
+      640,
+      938
+    ]
+  }
+}

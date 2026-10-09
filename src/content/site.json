@@ -1,0 +1,37 @@
+{
+  "name": "MesoNutrilift",
+  "tagline": "Gençleşmenin Yeni İksiri",
+  "url": "https://mesonutrilift.com",
+  "locale": "tr_TR",
+  "description": "Somon DNA, hyaluronik asit, peptit kompleksi, multivitamin ve multimineral içeren MesoNutrilift; cildi besler, nemlendirir ve canlılığını yeniden kazanmasına yardımcı olur. Size en yakın uygulama noktasını bulun.",
+  "brand": {
+    "manufacturer": "MesoMedica",
+    "distributor": "Erdağı Medikal",
+    "distributorUrl": "https://erdagimedikal.com"
+  },
+  "contact": {
+    "address": "Şenlikköy Mah. Harman Sok. No:16/6 Florya, Bakırköy / İstanbul",
+    "phones": [
+      {
+        "label": "GSM",
+        "value": "+90 533 342 24 53"
+      },
+      {
+        "label": "Santral",
+        "value": "+90 212 445 34 24"
+      }
+    ],
+    "email": "info@mesonutrilift.com"
+  },
+  "social": {
+    "youtube": "https://www.youtube.com/@ErdagiMedikalTV"
+  },
+  "sheets": {
+    "clinics": {
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRVXxTFyI5JDWc7hf5zYb7_fP-hX4sfbiqGpXLW6rNhJ3ftu3SjaOM6wo4LC6QFZQ/pub?gid=1926322348&single=true&output=csv"
+    },
+    "videos": {
+      "url": ""
+    }
+  }
+}

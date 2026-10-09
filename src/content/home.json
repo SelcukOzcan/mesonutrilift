@@ -1,0 +1,210 @@
+{
+  "hero": {
+    "eyebrow": "Dünyaca ünlü MesoMedica güvencesiyle",
+    "title": "Somon DNA'lı gençlik aşısı MesoNutrilift",
+    "lead": "Somon DNA, hyaluronik asit, peptit kompleksi, multivitamin ve multimineral içeren MesoNutrilift; cildi derinlemesine besler, nem dengesini destekler ve yorgun görünen cilde yeniden canlılık kazandırır.",
+    "primaryCta": {
+      "label": "Size en yakın kliniği bulun",
+      "href": "/klinikler/"
+    },
+    "secondaryCta": {
+      "label": "Nasıl uygulanır?",
+      "href": "#uygulama"
+    },
+    "highlights": [
+      "50'den fazla ülkede güvenle",
+      "Paraben ve alkol içermez",
+      "%100 steril solüsyon"
+    ],
+    "chips": [
+      "Somon DNA",
+      "Hyaluronik asit",
+      "Peptit kompleksi",
+      "Multivitamin"
+    ],
+    "badge": "Somon DNA Plus • MesoMedica • Gençlik aşısı •",
+    "stats": {
+      "countries": 50,
+      "clinicsLabel": "uygulama noktası",
+      "citiesLabel": "il",
+      "countriesLabel": "ülkede güven"
+    }
+  },
+  "effects": {
+    "eyebrow": "Tek seansta 3'lü etki",
+    "title": "Besler, yeniler, canlandırır",
+    "description": "MesoNutrilift; dolgunluk, ışıltı ve sıkılık etkisini tek bir uygulamada bir araya getirir.",
+    "items": [
+      {
+        "name": "Mesofill",
+        "title": "Daha genç bir cilt",
+        "text": "İnce çizgilerin görünümünü azaltmaya ve cildin daha dolgun görünmesine yardımcı olur.",
+        "image": "effectYoung"
+      },
+      {
+        "name": "Mesoglow",
+        "title": "Daha aydınlık bir cilt",
+        "text": "Mat ve yorgun görünen cilde ışıltı kazandırır, cilt tonunu daha eşit gösterir.",
+        "image": "effectBright"
+      },
+      {
+        "name": "Mesolift",
+        "title": "Daha sıkı bir cilt",
+        "text": "Cildin elastikiyetini destekleyerek daha sıkı ve toparlanmış bir görünüm sağlar.",
+        "image": "effectFirm"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "MesoNutrilift nedir?",
+    "title": "Cildin ihtiyaç duyduğu besinleri tek formülde sunan gençlik aşısı",
+    "answer": "MesoNutrilift (SomonDNA Plus), MesoMedica tarafından geliştirilen ve mezoterapi yöntemiyle hekimler tarafından uygulanan bir cilt yenileme kokteylidir. İçeriğindeki somon DNA'sı, hyaluronik asit, peptit kompleksi, multivitamin, multimineral ve DMAE; yaşlanma, stres ve çevresel etkenler nedeniyle canlılığını kaybetmiş ciltleri besler ve nemlendirir.",
+    "body": [
+      "Kılcal mikro dolaşımı destekleyerek cildin yumuşak, pürüzsüz ve genç bir görünüm kazanması için gereken nem ve besinleri sağlar. Antioksidan etkisiyle cildin parlaklığını ve dayanıklılığını artırmaya yardımcı olur, nem ihtiyacını karşılayarak su kaybını azaltır.",
+      "Yüz, boyun, dekolte ve el üstü gibi farklı bölgelere uygulanabilir."
+    ],
+    "ingredientsTitle": "Formülün içinde neler var?",
+    "ingredients": [
+      {
+        "name": "Somon DNA",
+        "text": "Cildin yenilenme sürecini destekleyen polinükleotidler."
+      },
+      {
+        "name": "Hyaluronik asit",
+        "text": "Cildin nem tutma kapasitesini artırır."
+      },
+      {
+        "name": "Peptit kompleksi",
+        "text": "Cilt elastikiyetini ve sıkılığını destekler."
+      },
+      {
+        "name": "Multivitamin ve multimineral",
+        "text": "Cildin ihtiyaç duyduğu temel besinleri sağlar."
+      },
+      {
+        "name": "DMAE",
+        "text": "Toparlayıcı etkisiyle daha sıkı bir görünüm sunar."
+      }
+    ]
+  },
+  "indications": {
+    "eyebrow": "Kimler için uygun?",
+    "title": "MesoNutrilift hangi durumlarda tercih edilir?",
+    "items": [
+      "Yaşlanmaya bağlı ince çizgi ve kırışıklıklar",
+      "Çevresel etkenlerle nemini ve parlaklığını kaybetmiş ciltler",
+      "Akne ve sivilce sonrası oluşan iz görünümü",
+      "Göz altı morlukları ve göz çevresindeki matlık",
+      "Stres, hormonal değişimler, sigara ve düzensiz yaşam nedeniyle matlaşan ciltler",
+      "Boyun ve dekolte bölgesindeki kırışıklıklar",
+      "El üstünde oluşan kırışıklıklar"
+    ],
+    "note": "Uygulamanın sizin için uygun olup olmadığına cildinizi değerlendiren hekiminiz karar verir.",
+    "hotspotsTitle": "Uygulama bölgeleri",
+    "hotspots": [
+      {
+        "label": "Göz çevresi",
+        "text": "Göz altı morlukları ve matlık",
+        "x": 16,
+        "y": 32
+      },
+      {
+        "label": "Yanak",
+        "text": "İnce çizgiler, akne izleri, nem kaybı",
+        "x": 28,
+        "y": 44
+      },
+      {
+        "label": "Boyun",
+        "text": "Boyun kırışıklıkları",
+        "x": 41,
+        "y": 68
+      },
+      {
+        "label": "Dekolte",
+        "text": "Dekolte kırışıklıkları",
+        "x": 52,
+        "y": 88
+      },
+      {
+        "label": "El üstü",
+        "text": "El üstü kırışıklıkları",
+        "x": 8,
+        "y": 78
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Uygulama süreci",
+    "title": "MesoNutrilift nasıl uygulanır?",
+    "steps": [
+      {
+        "title": "Hekim değerlendirmesi",
+        "text": "Yaşınız, cilt tipiniz ve beklentileriniz değerlendirilerek size özel seans planı oluşturulur."
+      },
+      {
+        "title": "Lokal anestezik krem",
+        "text": "Uygulama bölgesine anestezik krem sürülür ve yaklaşık 20 dakika beklenir."
+      },
+      {
+        "title": "Mikroenjeksiyon",
+        "text": "MesoNutrilift, ince iğnelerle cildin orta tabakasına uygulanır."
+      },
+      {
+        "title": "Günlük hayata dönüş",
+        "text": "İşlemin ardından günlük yaşamınıza hemen devam edebilirsiniz."
+      }
+    ],
+    "plan": {
+      "label": "Seans planı",
+      "text": "Kişiye göre 1–3 hafta arayla 1 ile 5 seans arasında uygulanır."
+    },
+    "careTitle": "Uygulama sonrası dikkat edilmesi gerekenler",
+    "care": [
+      "Cildinizi güneş ışınlarından koruyun, yüksek faktörlü güneş kremi kullanın.",
+      "Uygulamadan sonraki ilk 6 saat makyaj yapmayın.",
+      "Günlük yaşantınıza hemen dönebilirsiniz."
+    ]
+  },
+  "results": {
+    "eyebrow": "Öncesi ve sonrası",
+    "title": "İlk seanstan farkı hissedin",
+    "description": "Cilt kalitesi arttıkça ton eşitsizlikleri azalır; cilt daha pürüzsüz ve sıkı bir görünüme kavuşur.",
+    "disclaimer": "Sonuçlar kişiden kişiye farklılık gösterebilir."
+  },
+  "videos": {
+    "eyebrow": "Doktorlar anlatıyor",
+    "title": "TV yayınları ve uzman görüşleri",
+    "description": "MesoNutrilift'i uygulayan hekimlerin televizyon programlarındaki anlatımlarını izleyin.",
+    "cta": {
+      "label": "Tüm yayınları izle",
+      "href": "/tv-yayinlari/"
+    }
+  },
+  "faq": {
+    "eyebrow": "SSS",
+    "title": "Sıkça sorulan sorular",
+    "description": "MesoNutrilift hakkında en çok merak edilenleri yanıtladık."
+  },
+  "clinicsCta": {
+    "title": "MesoNutrilift uygulamasını size en yakın klinikte yaptırın",
+    "description": "Türkiye genelinde {count} klinik ve hekim arasından size en yakın olanı bulun; doğrudan arayın ya da web sitesini ziyaret edin.",
+    "cta": {
+      "label": "Klinikleri görüntüle",
+      "href": "/klinikler/"
+    },
+    "citiesTitle": "Şehrinize göre klinikler",
+    "eyebrow": "Size en yakın uygulama noktası",
+    "searchHint": "Örn. Kadıköy, Ankara ya da doktor adı"
+  },
+  "marquee": [
+    "50’den fazla ülkede güvenle",
+    "Paraben ve alkol içermez",
+    "%100 steril solüsyon",
+    "Yalnızca hekim uygulaması",
+    "Somon DNA + hyaluronik asit",
+    "Ameliyatsız gençleşme",
+    "Hemen günlük hayata dönüş",
+    "Yüz, boyun, dekolte ve el"
+  ]
+}
